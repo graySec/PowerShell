@@ -1,6 +1,6 @@
 ﻿# simple port listener
 # to start listener Listener.start();
-# to sop listener Listerner.stop();
+# to stop listener Listerner.stop();
 function Listener {
 $input = Read-Host -Prompt "What port do you want to listen on: "
 #convert variable string to integer
